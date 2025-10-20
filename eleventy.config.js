@@ -1,5 +1,6 @@
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
+}
     eleventyConfig.addPassthroughCopy("img");
 
     eleventyConfig.addShortcode("formatDate", () => {
@@ -9,4 +10,3 @@ export default function (eleventyConfig) {
     return {
         markdownTemplateEngine: "njk",
     }
-}

@@ -1,0 +1,5 @@
+[
+    { "title": "Hem", "url": "/" },
+    { "title": "Blogg", "url": "/posts/" },
+    { "title": "Om", "url": "/about/" }
+]
