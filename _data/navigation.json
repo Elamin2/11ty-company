@@ -1,5 +1,7 @@
+
 [
     { "title": "Hem", "url": "/" },
-    { "title": "Blogg", "url": "/posts/" },
-    { "title": "Om", "url": "/about/" }
+    { "title": "Kontakt", "url": "/posts/" },
+    { "title": "Om", "url": "/posts/" }
 ]
+

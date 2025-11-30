@@ -1,8 +1,6 @@
 ---
-title: Min första 11ty sida
+title: Min företag remakes
 layout: layout.njk
 ---
 # Greentech företag
 
-
-    

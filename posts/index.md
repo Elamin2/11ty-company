@@ -1,14 +1,14 @@
 ---
-title: Blogg
+title: lista
 layout: layout.njk
 ---
 
-# Blogg
-Här är en lista över alla inlägg:
-<ul>
-{% for post in collections.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.data.title }}</a> - <em>{{ post.data.date }}</em>
-    </li>
-{% endfor %}
+<ul class="post-list">
+{%- for post in collections.posts -%}
+  <li class="post-item">
+    <time>{% formatDate post.date %}</time>
+    <h2><a href="{{ post.url }}">{{ post.data.title | capitalize }}</a></h2>
+    <p>{{ post.data.summary }}</p>
+  </li>
+{%- endfor -%}
 </ul>
